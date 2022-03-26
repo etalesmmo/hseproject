@@ -5,11 +5,7 @@ from bs4 import BeautifulSoup
 
 RUCORPORA_PREFIX = 'https://processing.ruscorpora.ru/'
 
-RHYME_URL = 'https://processing.ruscorpora.ru/search.xml?env=alpha&api=1.0&mycorp' \
-            '=JSONeyJkb2NfYXV0aG9yX2lkIjogWyLQkC4g0KEuINCf0YPRiNC60LjQvSJdfQ%3D%3D&mysent=&mysize=195573&mysentsize=0' \
-            '&dpp=&spp=&spd=&mydocsize=927&mode=poetic&lang=ru&sort=i_grtagging&nodia=1&text=lexgramm&ext=10&parent1' \
-            '=0&level1=0&lex1={lex1}&gramm1=&sem-mod1=sem&sem-mod1=semx&sem1=&form1=&flags1=rhyme&parent2=0&level2=0' \
-            '&min2=1&max2=1&lex2=&gramm2=&sem-mod2=sem&sem-mod2=semx&sem2=&form2=&flags2= '
+RHYME_URL = 'https://processing.ruscorpora.ru/search.xml?env=alpha&api=1.0&mycorp=JSONeyJkb2NfYXV0aG9yX2lkIjogWyLQki4g0JIuINCc0LDRj9C60L7QstGB0LrQuNC5Il19&mysent=&mysize=134347&mysentsize=0&dpp=&spp=&spd=&mydocsize=634&mode=poetic&lang=ru&sort=i_grtagging&nodia=1&text=lexgramm&ext=10&parent1=0&level1=0&lex1=&gramm1=&sem-mod1=sem&sem-mod1=semx&sem1=&form1=*%D0%BA%D0%B8%D0%B9&flags1=rhyme&parent2=0&level2=0&min2=1&max2=1&lex2=&gramm2=&sem-mod2=sem&sem-mod2=semx&sem2=&form2=&flags2='
 
 
 def find_rhyme(row):
