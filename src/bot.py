@@ -58,6 +58,11 @@ def main_bot():
     )
     updater.idle()
 
+from bottle import route, run
+@route('/')
+def index():
+    return 'Welcome to my bot'
+run(host='0.0.0.0', port=8082)
 
 if __name__ == '__main__':
     main_bot()
