@@ -9,7 +9,7 @@ def help_command(update, context):
     context.bot.send_message(
         chat_id=update.effective_chat.id,
         text="""
-            Поэзия каждый день.
+            Маяковский каждый день.
             
             Команды:
             /help  Показать справку
