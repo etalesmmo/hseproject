@@ -13,7 +13,7 @@ RHYME_URL = 'https://processing.ruscorpora.ru/search.xml?env=alpha&api=1.0&mycor
 
 
 def find_rhyme(row):
-    lexeme = '*' + row[-2:]
+    lexeme = '*' + row[-3:]
     url = RHYME_URL.format(lex1=lexeme)
 
     text_page = requests.request('GET', url).text
